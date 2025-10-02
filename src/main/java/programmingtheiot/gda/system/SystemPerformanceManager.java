@@ -49,12 +49,14 @@ public class SystemPerformanceManager
 	{
 	}
 	
-	public void startManager()
+	public boolean startManager()
 	{
+		return true;
 	}
 	
-	public void stopManager()
+	public boolean stopManager()
 	{
+		return true;
 	}
 	
 }
